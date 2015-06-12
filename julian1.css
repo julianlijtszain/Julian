@@ -2,7 +2,8 @@ body { margin-left: 90px; margin-left: 90px; margin-top: 70px;  background-color
 
 #header {margin-top: -20px; margin-bottom: 25px;  font-family: antenna; font-size: 35px;}
 
-.slideshow { position: relative; margin: 30px 0px 0px 0px; width: 1097px; height: 1750px; }
+.slideshow { position: relative; margin: 30px 0px 0px 0px; width: 1097px;  height: 450px;
+  overflow: hidden;}
 
 .slide { display: none; position: absolute;  width: 100%; height: 100%; }
 
