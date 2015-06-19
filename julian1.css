@@ -31,3 +31,42 @@ a:active {text-decoration: underline; color:#ffffff;}
 #space {margin-top: -13px; color:#ffffff;}
 
 .thumbnails img { height: 160px; width: 172px; margin: 0px 1.3px 0px 0;}
+
+@media only screen and (max-device-width: 480px), only screen and (max-device-heigth: 480px) {
+
+    body { margin-left: 10px; margin-top: 40px;  background-color: #ffffff; }
+
+    #header {margin-top: -5px; margin-bottom: 5px;  font-family: antenna; font-size: 100px;}
+
+    .btn {position: relative; display: block; font-family: antenna; Arial; color: #ffffff; font-size: 60px; background: #D3D3D3;  text-decoration: none; margin-right: 0px; margin-top: 5px; }
+
+    .fadein { position: relative; margin: 15px 0px 30px 0px; width: 962px;  height: 970px; overflow: hidden; }
+
+    .fadein img { position:absolute; width: 100%; height: 100%;}
+
+    .picture { width: 962px;  height: 970px}
+
+    .about img { position: relative; width: 962px; height: 970px; margin: 3px 0px 0px 0px;}
+
+    .aboutxt {position: absolute; font-size: 40px; margin-top: -1000px; margin-left: 30px; font-family: antenna; color: #ffffff;}
+
+    .aboutxt1 {position: absolute; font-size: 40px; margin-top: -650px; margin-left: 260px; font-family: antenna; color: #ffffff;}
+
+    ul p {margin-left: -22px; margin-top: 2px; font-size: 20px}
+
+    a:link { text-decoration: none; color:#ffffff;}
+
+    a:visited {text-decoration: none; color:#ffffff;}
+
+    a:hover {text-decoration: underline; color:#ffffff;}
+
+    a:active {text-decoration: underline; color:#ffffff;}
+
+    #space {margin-top: -13px; color:#ffffff;}
+
+    .thumbnails img { height: 180px; width: 187px; margin: 0px 1.3px 0px 0;}
+
+
+
+
+}
